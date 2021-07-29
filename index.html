@@ -217,6 +217,97 @@
             </script>
 
         </div>
+        <!--Grid row-->
+        <div class="row" id="flowers">
+
+            <div class="col-lg-4 col-md-4 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="yellow.png" width="400px" height="400px" class="card-img-top" alt="">
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Lavender Bouquet</h4>
+                        <a class="add-to-cart btn btn-black" onClick="increment()">Add to Cart</a>
+
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+
+
+            </div>
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-4 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="vase.jpg" width="400px" height="400px" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Classic Bouquet</h4>
+
+                        <a class="add-to-cart btn btn-black" onClick="increment()">Add to Cart</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-4 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="whiteflowers.jpg" width="400px" height="400px" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Sweet Bouquet</h4>
+                        <a class="add-to-cart btn btn-black" onClick="increment()">Add to Cart</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+
+            <script type="text/javascript">
+                function increment(){
+                    $('#total-count').html(parseInt($('#total-count').html(), 10)+1)
+                }
+            </script>
+
+        </div>
         <div class="row" id="about">
             <div class="col-md-12 col-sm-12">
                <h1 id="about-header">About</h1>
@@ -250,6 +341,7 @@
             <div class="col-lg-12" id="contact">
 
                 <!-- Content -->
+                <center>
                 <h1 class="text-uppercase">Contact</h1>
                 <div class="md-form form-group">
                     <address>
@@ -268,7 +360,7 @@
 
 
                 </div>
-
+                </center>
             </div>
 
             <!-- Grid column -->
